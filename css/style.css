@@ -1,0 +1,242 @@
+.users__innerr-content, .conversations__inner-content, .numbers__inner-content, .header__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ready__inner-btn, .start__inner-btn, .header__inner-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ready__inner-title, .users__inner-title, .conversations__inner-title, .grow__inner-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  margin: 0 auto;
+  max-width: 1440px;
+  background-color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #00252E;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header__inner {
+  padding: 78px 63px 78px 80px;
+  margin: 0 auto;
+  width: 1297px;
+  height: 40px;
+}
+.header__inner-logo {
+  width: 240px;
+  height: 38px;
+  background-image: url(../images/logo.svg);
+  background-size: cover;
+}
+.header__inner-btn {
+  width: 136px;
+  height: 40px;
+  border: 1px solid #FF52C1;
+  box-shadow: 0px 0px 9px rgba(255, 82, 193, 0.218778);
+  border-radius: 20px;
+  color: #FF52C1;
+}
+
+.start__inner {
+  padding: 147px 90px 0 90px;
+}
+.start__inner-content {
+  max-width: 1117px;
+  height: 1157px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.start__inner-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  margin-bottom: 26px;
+}
+.start__inner-text {
+  width: 600px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 49px;
+  text-align: center;
+}
+.start__inner-btn {
+  width: 400px;
+  height: 80px;
+  background-color: #FF52C1;
+  box-shadow: 0px 6px 13px rgba(0, 37, 46, 0.223053);
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.start__inner-picbig {
+  position: absolute;
+  left: -10px;
+  top: 447px;
+  background-image: url(../images/desktop-big.png);
+  width: 980px;
+  height: 620px;
+}
+.start__inner-picsmall {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 340px;
+  height: 522px;
+  background-image: url(../images/desktop-small.png);
+}
+
+.numbers__inner {
+  padding: 120px 160px;
+}
+.numbers__inner-content {
+  max-width: 880px;
+  height: 222px;
+}
+.numbers__inner-card {
+  position: relative;
+}
+.numbers__inner-icon {
+  position: absolute;
+}
+.numbers__inner-numeric {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 144px;
+  margin-top: 40px;
+  margin-bottom: 2px;
+}
+.numbers__inner-info {
+  font-size: 24px;
+  line-height: 36px;
+  color: #808E9A;
+}
+
+.grow {
+  height: 841px;
+  background-image: url(../images/grow-bg.png);
+  padding: 165px 120px 116px 120px;
+}
+.grow__inner-content {
+  position: relative;
+  width: 1200px;
+  height: 560px;
+  padding-top: 200px;
+}
+.grow__inner-title {
+  margin-bottom: 28px;
+}
+.grow__inner-text {
+  width: 528px;
+}
+.grow__inner-bg {
+  position: absolute;
+  top: 68px;
+  right: 22px;
+  width: 525px;
+  height: 423px;
+  background-image: url(../images/grow_together.png);
+}
+
+.conversations__inner {
+  padding: 58px 0;
+}
+.conversations__inner-content {
+  width: 1200px;
+  height: 560px;
+  align-items: center;
+}
+.conversations__inner-bg {
+  width: 531px;
+  height: 378px;
+  background-image: url(../images/conversation-pic.png);
+}
+.conversations__inner-title {
+  margin-bottom: 26px;
+}
+.conversations__inner-text {
+  width: 520px;
+}
+
+.users {
+  height: 817px;
+  background-image: url(../images/users-bg.png);
+  padding: 124px 120px;
+}
+.users__innerr-content {
+  width: 1200px;
+  height: 573px;
+  align-items: center;
+}
+.users__inner-title {
+  margin-bottom: 26px;
+}
+.users__inner-text {
+  width: 520px;
+}
+.users__inner-bg {
+  width: 534px;
+  height: 414px;
+  background-image: url(../images/users-pic.png);
+}
+
+.ready {
+  padding: 135px 371px 135px 387px;
+}
+.ready__inner {
+  width: 684px;
+  height: 182px;
+}
+.ready__inner-title {
+  margin-bottom: 42px;
+}
+.ready__inner-btn {
+  margin: 0 149px 0 131px;
+  width: 400px;
+  height: 80px;
+  box-shadow: 0px 6px 13px rgba(0, 37, 46, 0.223053);
+  border-radius: 40px;
+  background-color: #FF52C1;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}/*# sourceMappingURL=style.css.map */

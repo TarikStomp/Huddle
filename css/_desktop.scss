@@ -1,0 +1,248 @@
+.header {
+
+    &__inner {
+        padding: 78px 63px 78px 80px;
+        margin: 0 auto;
+        width: 1297px;
+        height: 40px;
+        @extend %flex;
+    }
+
+    &__inner-logo {
+        width: 240px;
+        height: 38px;
+        background-image: url(../images/logo.svg);
+        background-size: cover;
+    }
+
+    &__inner-btn {
+        @extend %flexcent;
+        width: 136px;
+        height: 40px;
+        border: 1px solid $p;
+        box-shadow: 0px 0px 9px rgba(255, 82, 193, 0.218778);
+        border-radius: 20px;
+        color: $p;
+    }
+}
+
+.start {
+
+    &__inner {
+        padding: 147px 90px 0 90px;
+    }
+
+    &__inner-content {
+        max-width: 1117px;
+        height: 1157px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    &__inner-title {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 72px;
+        margin-bottom: 26px;
+
+    }
+
+    &__inner-text {
+        width: 600px;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 49px;
+        text-align: center;
+    }
+
+    &__inner-btn {
+        width: 400px;
+        height: 80px;
+        background-color: $p;
+        box-shadow: 0px 6px 13px rgba(0, 37, 46, 0.223053);
+        border-radius: 40px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: $w;
+        @extend %flexcent;
+    }
+
+    &__inner-picbig {
+        position: absolute;
+        left: -10px;
+        top: 447px;
+        background-image: url(../images/desktop-big.png);
+        width: 980px;
+        height: 620px;
+    }
+
+    &__inner-picsmall {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 340px;
+        height: 522px;
+        background-image: url(../images/desktop-small.png);
+    }
+}
+
+.numbers {
+
+    &__inner {
+        padding: 120px 160px;
+    }
+
+    &__inner-content {
+        max-width: 880px;
+        height: 222px;
+        @extend %flex;
+    }
+
+    &__inner-card {
+        position: relative;
+    }
+
+    &__inner-icon {
+        position: absolute;
+    }
+
+    &__inner-numeric {
+        font-weight: 700;
+        font-size: 96px;
+        line-height: 144px;
+        margin-top: 40px;
+        margin-bottom: 2px;
+    }
+
+    &__inner-info {
+        font-size: 24px;
+        line-height: 36px;
+        color: #808E9A;
+    }
+}
+
+.grow {
+    height: 841px;
+    background-image: url(../images/grow-bg.png);
+    padding: 165px 120px 116px 120px;
+
+    &__inner-content {
+        position: relative;
+        width: 1200px;
+        height: 560px;
+        padding-top: 200px;
+
+    }
+
+    &__inner-title {
+        @extend %title;
+        margin-bottom: 28px;
+    }
+
+    &__inner-text {
+        width: 528px;
+    }
+
+    &__inner-bg {
+        position: absolute;
+        top: 68px;
+        right: 22px;
+        width: 525px;
+        height: 423px;
+        background-image: url(../images/grow_together.png);
+    }
+}
+
+.conversations {
+
+    &__inner {
+        padding: 58px 0;
+    }
+
+    &__inner-content {
+        width: 1200px;
+        height: 560px;
+        @extend %flex;
+        align-items: center;
+    }
+
+    &__inner-bg {
+        width: 531px;
+        height: 378px;
+        background-image: url(../images/conversation-pic.png);
+    }
+
+  
+    &__inner-title {
+        @extend %title;
+        margin-bottom: 26px;
+    }
+
+    &__inner-text {
+        width: 520px;
+    }
+}
+
+.users {
+    height: 817px;
+    background-image: url(../images/users-bg.png);
+    padding: 124px 120px;
+
+    &__innerr-content {
+        width: 1200px;
+        height: 573px;
+        @extend %flex;
+        align-items: center;
+    }
+
+
+
+    &__inner-title {
+        @extend %title;
+        margin-bottom: 26px;
+    }
+
+    &__inner-text {
+        width: 520px;
+    }
+
+    &__inner-bg {
+        width: 534px;
+        height: 414px;
+        background-image: url(../images/users-pic.png);
+    }
+}
+
+.ready {
+    padding: 135px 371px 135px 387px;
+
+    &__inner {
+        width: 684px;
+        height: 182px;
+
+    }
+
+    &__inner-title {
+        @extend %title;
+        margin-bottom: 42px;
+
+    }
+
+    &__inner-btn {
+        margin: 0 149px 0 131px;
+        width: 400px;
+        height: 80px;
+        box-shadow: 0px 6px 13px rgba(0, 37, 46, 0.223053);
+        border-radius: 40px;
+        background-color: $p;
+        color: $w;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        @extend %flexcent;
+    }
+}

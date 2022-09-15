@@ -1,0 +1,31 @@
+html,
+body {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: $w;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $d;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+a {
+    text-decoration: none;
+}

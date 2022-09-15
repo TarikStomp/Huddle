@@ -1,0 +1,21 @@
+$p: #FF52C1;
+$w: #FFFFFF;
+$d: #00252E;
+
+%flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+%flexcent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+}
