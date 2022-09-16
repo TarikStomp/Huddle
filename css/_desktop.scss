@@ -13,6 +13,7 @@
         height: 38px;
         background-image: url(../images/logo.svg);
         background-size: cover;
+        
     }
 
     &__inner-btn {
@@ -24,6 +25,12 @@
         border-radius: 20px;
         color: $p;
     }
+    &__inner-btn:hover{
+        color: $ph;
+        transition: 1s;
+        border-color: $ph;
+    }
+    
 }
 
 .start {
@@ -70,7 +77,10 @@
         color: $w;
         @extend %flexcent;
     }
-
+    &__inner-btn:hover{
+        background-color: $ph;
+        transition: 1s;
+    }
     &__inner-picbig {
         position: absolute;
         left: -10px;
@@ -176,7 +186,7 @@
         background-image: url(../images/conversation-pic.png);
     }
 
-  
+
     &__inner-title {
         @extend %title;
         margin-bottom: 26px;
@@ -219,6 +229,7 @@
 
 .ready {
     padding: 135px 371px 135px 387px;
+    margin-bottom: 43px;
 
     &__inner {
         width: 684px;
@@ -244,5 +255,149 @@
         font-size: 20px;
         line-height: 30px;
         @extend %flexcent;
+    }
+    &__inner-btn:hover{
+        background-color: $ph;
+        transition: 1s;
+    }
+}
+
+.footer {
+    height: 720px;
+    background-image: url(../images/footer-bg.png);
+    padding: 280px 0 103px 0;
+    position: relative;
+    background-size: cover;
+
+    &__inner {}
+
+    &__inner-content {
+        width: 1200px;
+        height: 337px;
+        @extend %flex;
+    }
+
+    &__inner-contacts {}
+
+    &__inner-subscribe {}
+}
+
+.inner {
+
+    &__contacts-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 400px;
+        height: 400px;
+        background-image: url(../images/fologo.svg);
+        
+      
+    }
+
+    &__contacts-text {
+        font-weight: 600;
+        font-size: 14px;
+        color: $w;
+        width: 340px;
+        margin-top: 65px;
+        margin-bottom: 24px;
+    }
+
+    &__contacts-phone {
+        margin-left: 40px;
+        width: 222px;
+        color: $w;
+        position: relative;
+        margin-bottom: 16px;
+        img {
+            position: absolute;
+            left: -40px;
+        }
+
+    }
+
+    &__contacts-email {
+        position: relative;
+
+        img {
+            position: absolute;
+            left: -40px;
+        }
+
+        margin-left: 40px;
+        width: 208px;
+        color: $w;
+        margin-bottom: 80px;
+    }
+    &__contacts-icons{
+        @extend %flex;
+        width: 144px;
+        height: 32px;
+    }
+    &__contacts-icon{
+        
+      
+    }
+    &__contacts-icon:hover {
+        filter: invert(63%) sepia(34%) saturate(3657%) hue-rotate(150deg) brightness(100%) contrast(101%);
+        transition: 1s;
+        cursor: pointer;
+    }
+    
+
+    &__subscribe-title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        color: $w;
+        margin-bottom: 16px;
+    }
+
+    &__subscribe-text {
+        font-weight: 600;
+        font-size: 14px;
+        color: $w;
+        width: 344px;
+        margin-bottom: 40px;
+    }
+
+    &__subscribe-form {
+        width: 520px;
+        height: 48px;
+        display: flex;
+
+        input[type=email] {
+            border: none;
+            border-radius: 6px;
+            width: 320px;
+            height: 100%;
+            background: $w;
+            margin-right: 40px;
+            padding: 12px 16px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: $d;
+        }
+
+        input[type=submit] {
+            border: none;
+            border-radius: 5px;
+            background: $p;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            color: $w;
+            width: 160px;
+            height: 100%;
+            cursor: pointer;
+        }
+        input[type=submit]:hover{
+            background-color: $ph;
+            transition: 1s;
+        }
     }
 }
